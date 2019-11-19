@@ -16,7 +16,7 @@ hit = false;
 hitblend = false;
 
 
-
+alpha_level = 0.5;
 
 //bounce
 bouncing = false;
