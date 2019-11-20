@@ -210,7 +210,7 @@
             "Key": "314f2716-01af-4e23-8ce6-0aa7f1d7ac32",
             "Value": {
                 "id": "36683079-beb9-491e-a6db-f418a995396c",
-                "resourcePath": "scripts\\spawn_enemy_red\\spawn_enemy_red.yy",
+                "resourcePath": "scripts\\spawn_enemy\\spawn_enemy.yy",
                 "resourceType": "GMScript"
             }
         },

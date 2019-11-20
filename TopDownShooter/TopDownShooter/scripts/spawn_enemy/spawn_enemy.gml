@@ -1,4 +1,7 @@
-/// @description spawn_enemy_red
+/// @description spawn_enemy
+/// @param enemy_object
+
+var enemy = argument0;
 
 // Spawn location tags
 left = 0;
@@ -32,7 +35,7 @@ if spawn_side == top || spawn_side == bottom {
 }
 
 // Spawn
-instance_create_layer(spawn_x,spawn_y,"Instances", obj_enemy_red);
+instance_create_layer(spawn_x,spawn_y,"Instances", enemy);
 
 
 
