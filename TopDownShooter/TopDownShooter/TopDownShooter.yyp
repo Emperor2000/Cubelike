@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0029dd8e-1969-46ee-82f7-a7478aea5913",
+            "Value": {
+                "id": "c891c37d-dec1-4443-a8b3-1c105168d329",
+                "resourcePath": "objects\\obj_enemy_purple\\obj_enemy_purple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05bc0488-b547-4bba-8cd2-80d2f550696d",
             "Value": {
                 "id": "b46d00e7-d851-4e2f-8294-6bf12e034e41",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "2d7a62f8-76e3-4ae6-92fa-7bf8f6b09e95",
+            "Value": {
+                "id": "de620094-6fff-4c72-9623-dd61f987e4c1",
+                "resourcePath": "scripts\\projectile_find_intercept_angle\\projectile_find_intercept_angle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e198c8a-6f8c-415a-9395-815dbb53134f",
             "Value": {
                 "id": "d1973439-b495-4990-be01-9f67ff54a628",
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "3b9532bc-e41d-410a-b0e6-2cc63c23ebc9",
+            "Value": {
+                "id": "15c049e8-6c52-4b71-8d41-5555d0793ff2",
+                "resourcePath": "sprites\\spr_bullet_purple\\spr_bullet_purple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c1be1ed-1e4a-4d69-8174-ccff636beb68",
             "Value": {
                 "id": "b5c467a0-bac9-4e1d-8c4d-63d7f61a11f9",
@@ -268,6 +292,14 @@
                 "id": "58ac5745-fc45-4b7f-926a-a2580c9f6f1c",
                 "resourcePath": "views\\4045cc2a-52ba-4902-8c54-37b6a5535215.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41ad04d5-a216-44c1-8b46-f2461e3f9f06",
+            "Value": {
+                "id": "460cd64c-ff12-456c-9469-b6959965a84b",
+                "resourcePath": "sprites\\spr_purple_enemy\\spr_purple_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,6 +348,14 @@
                 "id": "5a1073f3-6a96-4753-ba79-df8fd8e21141",
                 "resourcePath": "objects\\obj_waves\\obj_waves.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50e4dbc8-a3b2-495d-bea0-5732f22a6abd",
+            "Value": {
+                "id": "6dec75cc-9084-4353-b93f-8a3b9249d56d",
+                "resourcePath": "sprites\\spr_purple_enemy_alt\\spr_purple_enemy_alt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,6 +687,14 @@
             }
         },
         {
+            "Key": "b04595b3-9db0-46ef-a1eb-6c2251e1571e",
+            "Value": {
+                "id": "0cc86c25-6a2f-4235-a730-f5ada80a69c8",
+                "resourcePath": "objects\\obj_bullet_purple\\obj_bullet_purple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b0b1c68f-7e7c-42e8-a219-a540be9b1142",
             "Value": {
                 "id": "28263a8d-9343-465a-bb8f-78d0d67cf39d",
@@ -839,6 +887,14 @@
             }
         },
         {
+            "Key": "e20c80b4-7be7-41d4-9c6f-09726266f156",
+            "Value": {
+                "id": "587718fa-1ba7-43ba-9e12-d5e2815a35fd",
+                "resourcePath": "sprites\\spr_purple_enemy_blur_alt\\spr_purple_enemy_blur_alt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2a0fa1b-4934-4ac9-b7fd-ac1dbe3c269f",
             "Value": {
                 "id": "34e5fa1a-8e43-47d8-8881-e25554d83621",
@@ -939,7 +995,8 @@
         "0682126f-35fe-4692-b5bd-7b2091c5ce6f",
         "1417d5af-f47a-48f8-b1c6-d193e030cb51",
         "314f2716-01af-4e23-8ce6-0aa7f1d7ac32",
-        "5b825c95-f565-4ba7-9ca2-c36d54539090"
+        "5b825c95-f565-4ba7-9ca2-c36d54539090",
+        "2d7a62f8-76e3-4ae6-92fa-7bf8f6b09e95"
     ],
     "tutorial": ""
 }

@@ -43,8 +43,8 @@ horizontal_input = keyboard_check(ord("D")) - keyboard_check(ord("A"));	//Move h
 vertical_input = keyboard_check(ord("S")) - keyboard_check(ord("W"));		//Move vertical
 
 //move speed
-var move_horizontal = (horizontal_input * move_speed);
-var move_vertical = (vertical_input * move_speed);
+move_horizontal = (horizontal_input * move_speed);
+move_vertical = (vertical_input * move_speed);
 
 
 //Maximum move speed

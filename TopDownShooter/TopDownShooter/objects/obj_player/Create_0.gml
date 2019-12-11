@@ -10,7 +10,8 @@ max_speed = move_speed;
 
 hit = false;
 
-
+move_horizontal = 0;
+move_vertical = 0;
 
 
 recoil_count = 0;
