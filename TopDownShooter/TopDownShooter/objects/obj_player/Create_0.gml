@@ -3,6 +3,9 @@ firing_cooldown = 15; //cooldown after firing
 enable_fire = true;   //boolean, is the player allowed to fire?
 acceleration = 0.05;
 
+//health 
+hp = 4;
+
 
 //player movement
 move_speed = 4;		 //move speed
@@ -28,26 +31,10 @@ alpha_level = 0.5;
 alpha_increment = 0.005;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 hsp = 0;			 //horizontal speed
 vsp = 0;		  	 //vertical speed
+
+
+
+//score
+current_run_score = 0;

@@ -21,3 +21,6 @@ alpha_level = 0.5;
 //bounce
 bouncing = false;
 bounce_time = 60;
+
+
+hitdraw = false;

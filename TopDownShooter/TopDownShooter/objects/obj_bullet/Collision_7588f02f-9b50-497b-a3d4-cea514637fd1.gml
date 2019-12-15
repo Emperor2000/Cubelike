@@ -12,8 +12,7 @@ other.hit = true;
 		}
 		
 		
-
-
-
+obj_player.current_run_score += 1; //increment player score on succesfull hit
+instance_create_layer(x+irandom_range(-60, 60), y+irandom_range(-60, 60), "Overlay", obj_draw_damage_1);
 
 instance_destroy();

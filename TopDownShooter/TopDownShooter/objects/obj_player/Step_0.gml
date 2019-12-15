@@ -74,6 +74,27 @@ y+=move_vertical;
 
 
 
+if (hit == true) {
+	hitblend = true;
+	sprite_index = spr_hit;	
+	//instance_create_layer(x, y, "Projectiles", o_blood_purple2);
+	//instance_create_layer(x, y, "Projectiles", o_blood_purple2);
+	hit = false;
+	alarm[1] = 10;
+	obj_camera.shake += 200;
+}
+
+
+
+if (hp <= 0) {
+	hit = false;
+	//obj_camera.shake += 50;
+	//save score and go to game
+}
+
+
+
+
 
 
 

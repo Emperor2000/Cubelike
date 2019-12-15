@@ -1,6 +1,6 @@
-speed = 8;
+speed = 4;
 angle = image_angle;
-
+damage = 1;
 
 
 

@@ -32,6 +32,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < firing_range && enable_fi
 }
 
 if (hp <= 0) {
+	obj_player.current_run_score += 15;
 	hit = true;
 	obj_camera.shake += 50;
 	instance_destroy();
@@ -41,8 +42,8 @@ if (hp <= 0) {
 if (hit == true) {
 	hitblend = true;
 	sprite_index = spr_hit;	
-	instance_create_layer(x, y, "Projectiles", o_blood_red2);
-	instance_create_layer(x, y, "Projectiles", o_blood_red2);
+	instance_create_layer(x, y, "Projectiles", o_blood_purple2);
+	instance_create_layer(x, y, "Projectiles", o_blood_purple2);
 	hit = false;
 	alarm[1] = 10;
 	

@@ -33,6 +33,7 @@ if (hp <= 0) {
 
 
 if (hit == true) {
+	hitdraw = true;
 	hitblend = true;
 	sprite_index = spr_hit;	
 	//instance_create_layer(x, y, "Projectiles", o_blood_red2)
