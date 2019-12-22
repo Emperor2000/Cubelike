@@ -935,14 +935,6 @@
             }
         },
         {
-            "Key": "dc2bb9ef-6415-4aa4-9131-e2aea98a5cac",
-            "Value": {
-                "id": "3532d301-3cba-4937-885b-806d23541c60",
-                "resourcePath": "sprites\\spr_leaderboard\\spr_leaderboard.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "de1912fa-5442-46f8-9bc8-da119e8c80a5",
             "Value": {
                 "id": "1ea4c877-2232-4260-b759-7df9fd7044e9",
