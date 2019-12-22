@@ -86,3 +86,4 @@ for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
 	show_debug_message(global.leaderboard_scores[? curr_player]);
 	show_debug_message(global.leaderboard_date[? curr_player]);
 }
+display = "All tasks finished...";
