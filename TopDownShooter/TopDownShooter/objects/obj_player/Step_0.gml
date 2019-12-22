@@ -88,6 +88,7 @@ if (hit == true) {
 
 if (hp <= 0) {
 	hit = false;
+	room_restart();
 	//obj_camera.shake += 50;
 	//save score and go to game
 }

@@ -74,9 +74,8 @@ ds_list_destroy(list);
 ds_map_destroy(result_map);
 
 
-//for (var i = 1; i<ds_map_size(global.leaderboard_map); i++) {
-// show_debug_message("MAPITEM::::" + global.leaderboard_map[global.Name[n]]);
-//}
+
+
 
 for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
 	var curr_player = global.leaderboard_names[? "player"];
