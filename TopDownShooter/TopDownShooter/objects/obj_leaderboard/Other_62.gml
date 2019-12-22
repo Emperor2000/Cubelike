@@ -45,12 +45,15 @@ var result_map = json_decode(json);
 var list = ds_map_find_value(result_map, "data");
 var size = ds_list_size(list);
 
+
+
+
 for (var n = 0; n < ds_list_size(list); n++;)
    {
    var map = ds_list_find_value(list, n);
    var curr = ds_map_find_first(map);
-   show_debug_message("map........................" + string(map));
-   show_debug_message("current...................." + string(curr));
+ //  show_debug_message("map........................" + string(map));
+ //  show_debug_message("current...................." + string(curr));
          global.Name[n] = ds_map_find_value(map, "name");
 	  global.Score[n] = ds_map_find_value(map, "score");
 	  	  global.CreateDate[n] = ds_map_find_value(map, "create_date");
@@ -59,13 +62,12 @@ for (var n = 0; n < ds_list_size(list); n++;)
 		 show_debug_message("date...................." + string(global.CreateDate[n]));
 		// ds_list_add("player&score",string(global.Name[n]) + " : " + string(global.Score[n]));
 		 ds_map_add(global.leaderboard_map, global.Name[n], global.Score[n]);
-		 ds_map_add(global.leaderboard_names, "player", global.Name[n]);
+		 ds_map_add(global.leaderboard_names, n, global.Name[n]);
 		 ds_map_add(global.leaderboard_scores, global.Name[n], global.Score[n]);
 		 ds_map_add(global.leaderboard_date, global.Name[n], global.CreateDate[n]);
 		 //TODO: Destroy ds maps to prevent memory leaks
    while (is_string(curr))
       {
-
       curr = ds_map_find_next(map, curr);
       }
    ds_map_destroy(map);
@@ -78,7 +80,8 @@ ds_map_destroy(result_map);
 
 
 for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
-	var curr_player = global.leaderboard_names[? "player"];
+	var curr_player = global.leaderboard_names[? i];
+//	var curr_player = ds_map_find_next(i, "player");
 	show_debug_message(curr_player);	
 	show_debug_message(global.leaderboard_scores[? curr_player]);
 	show_debug_message(global.leaderboard_date[? curr_player]);
