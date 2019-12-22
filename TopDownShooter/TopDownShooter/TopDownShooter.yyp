@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2698ba48-6236-4ec8-872f-a776cac6c668",
+            "Value": {
+                "id": "d1258935-6c0e-48dd-ab7c-45357f122705",
+                "resourcePath": "objects\\obj_levelling_system\\obj_levelling_system.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2aaef3be-df2c-47bb-95c0-155b12c5dfbe",
             "Value": {
                 "id": "3edc6418-3592-4bc0-a685-c2f18110474f",

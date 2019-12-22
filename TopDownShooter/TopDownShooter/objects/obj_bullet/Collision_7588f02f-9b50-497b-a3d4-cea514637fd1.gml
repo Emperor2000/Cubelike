@@ -11,7 +11,8 @@ other.hit = true;
 		obj_camera.shake += 30;
 		}
 		
-		
+global.player_xp +=1;
+global.count_since_level +=1;
 obj_player.current_run_score += 1; //increment player score on succesfull hit
 instance_create_layer(x+irandom_range(-60, 60), y+irandom_range(-60, 60), "Overlay", obj_draw_damage_1);
 

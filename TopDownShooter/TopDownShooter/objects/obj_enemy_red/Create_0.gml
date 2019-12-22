@@ -6,7 +6,6 @@ enable_fire = true;   //boolean, is the ai allowed to fire?
 firing_range = 300;
 acceleration = 0.05;
 image_alpha = 0;
-
 hit = false;
 
 //knockback system
@@ -24,3 +23,6 @@ bounce_time = 60;
 
 
 hitdraw = false;
+
+
+added_score_on_death = 5;

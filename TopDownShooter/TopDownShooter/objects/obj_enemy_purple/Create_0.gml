@@ -27,3 +27,5 @@ bounce_time = 60;
 
 
 hitdraw = false;
+
+added_score_on_death = 15;
