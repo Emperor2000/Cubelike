@@ -1,0 +1,1 @@
+draw_text(50, 150, "Server status: " + string(display));
