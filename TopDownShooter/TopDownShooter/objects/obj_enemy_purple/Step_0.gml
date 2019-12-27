@@ -33,8 +33,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < firing_range && enable_fi
 
 if (hp <= 0) {
 	obj_player.current_run_score += added_score_on_death;
-	global.player_xp += added_score_on_death;
-	global.count_since_level += added_score_on_death;
+	global.xp_since_levelling += added_score_on_death;
 	hit = true;
 	obj_camera.shake += 50;
 	instance_destroy();

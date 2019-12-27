@@ -34,15 +34,22 @@ display = "parsing data...";
 } else {
 display = "An error has occured. Unexpected response from server";
 }
-
 show_debug_message("data: " + json);
 //convert JSON to ds map
 show_debug_message("converting json...");
 display = "Converting received data...";
 //data parsing
+
+
+
+
 var result_map = json_decode(json);
 
 var list = ds_map_find_value(result_map, "data");
+
+
+if (list != undefined) {
+
 var size = ds_list_size(list);
 
 
@@ -87,3 +94,5 @@ for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
 	show_debug_message(global.leaderboard_date[? curr_player]);
 }
 display = "All tasks finished...";
+
+}
