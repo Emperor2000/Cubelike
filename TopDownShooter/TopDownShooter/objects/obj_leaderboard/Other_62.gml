@@ -28,6 +28,9 @@ var data = json_decode(map);
 show_debug_message("NEW:::" + string(data));
 
 */
+display = "Contacting the server...";
+
+
 var json = async_load[? "result"];
 if (json != noone) {
 display = "parsing data...";	
@@ -41,8 +44,10 @@ show_debug_message("converting json...");
 display = "Converting received data...";
 //data parsing
 var result_map = json_decode(json);
-
 var list = ds_map_find_value(result_map, "data");
+
+if (list != undefined) {
+
 var size = ds_list_size(list);
 
 
@@ -87,3 +92,8 @@ for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
 	show_debug_message(global.leaderboard_date[? curr_player]);
 }
 display = "All tasks finished...";
+
+
+} else {
+display = "The server could not be reached...";	
+}
