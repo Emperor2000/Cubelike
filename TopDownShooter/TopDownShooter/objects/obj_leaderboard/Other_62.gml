@@ -28,9 +28,6 @@ var data = json_decode(map);
 show_debug_message("NEW:::" + string(data));
 
 */
-display = "Contacting the server...";
-
-
 var json = async_load[? "result"];
 if (json != noone) {
 display = "parsing data...";	
