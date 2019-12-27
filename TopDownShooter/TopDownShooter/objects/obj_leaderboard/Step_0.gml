@@ -8,3 +8,8 @@ if (should_fetch) {
 	should_fetch = false;
 
 }
+
+
+if (display == "") {
+	display = "Contacting the server...";	
+}

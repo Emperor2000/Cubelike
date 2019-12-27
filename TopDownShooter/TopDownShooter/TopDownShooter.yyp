@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "ee5ad4f0-4cfe-4d22-bea1-0a2437c906ed",
+            "Value": {
+                "id": "90acc37f-b03f-4c9c-ad78-b2f4e523212b",
+                "resourcePath": "objects\\obj_achievement\\obj_achievement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6b848146-8dc7-4ea8-a872-54a520f58f30",

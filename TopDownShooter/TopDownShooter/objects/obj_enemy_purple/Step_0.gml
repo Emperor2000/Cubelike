@@ -32,6 +32,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < firing_range && enable_fi
 }
 
 if (hp <= 0) {
+	global.PURPLE_TOKENS += 1;
 	obj_player.current_run_score += 15;
 	hit = true;
 	obj_camera.shake += 50;
