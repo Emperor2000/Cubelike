@@ -23,33 +23,33 @@ recoil_decrement = 1;
 
 #region Upgrades
 
-var quantity = 0;
-var multiplier = 1;
-var toggle = -1;
+upgrade_quantity = 0;
+upgrade_multiplier = 1;
+upgrade_toggle = -1;
 
 // Rate of Fire
-upgdrade_array[upgrades.rate_of_fire, quantity] = 0;;
-upgdrade_array[upgrades.rate_of_fire, multiplier] = 1.15;
+upgdrade_array[upgrades.rate_of_fire, upgrade_quantity] = 0;;
+upgdrade_array[upgrades.rate_of_fire, upgrade_multiplier] = 1.15;
 
 // Max Health
-upgdrade_array[upgrades.max_health, quantity] = 0;
-upgdrade_array[upgrades.max_health, multiplier] = 1.25;
+upgdrade_array[upgrades.max_health, upgrade_quantity] = 0;
+upgdrade_array[upgrades.max_health, upgrade_multiplier] = 1.25;
 
 // Movement Speed
-upgdrade_array[upgrades.movement_speed, quantity] = 0;
-upgdrade_array[upgrades.movement_speed, multiplier] = 1.1;
+upgdrade_array[upgrades.movement_speed, upgrade_quantity] = 0;
+upgdrade_array[upgrades.movement_speed, upgrade_multiplier] = 1.1;
 
 // Bullet Damage
-upgdrade_array[upgrades.bullet_damage, quantity] = 0;
-upgdrade_array[upgrades.bullet_damage, multiplier] = 1.3;
+upgdrade_array[upgrades.bullet_damage, upgrade_quantity] = 0;
+upgdrade_array[upgrades.bullet_damage, upgrade_multiplier] = 1.3;
 
 // Missiles
-upgdrade_array[upgrades.missiles, quantity] = 0;
-upgdrade_array[upgrades.missiles, multiplier] = toggle;
+upgdrade_array[upgrades.missiles, upgrade_quantity] = 0;
+upgdrade_array[upgrades.missiles, upgrade_multiplier] = upgrade_toggle;
 
 // Boost
-upgdrade_array[upgrades.boost, quantity] = 0;
-upgdrade_array[upgrades.boost, multiplier] = toggle;
+upgdrade_array[upgrades.boost, upgrade_quantity] = 0;
+upgdrade_array[upgrades.boost, upgrade_multiplier] = upgrade_toggle;
 
 #endregion
 
