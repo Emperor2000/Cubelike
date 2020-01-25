@@ -88,7 +88,9 @@ if (hit == true) {
 
 if (hp <= 0) {
 	hit = false;
-	room_restart();
+	//room_restart();
+	global.player_final_score = self.current_run_score;
+	room_goto(room_leaderboard);
 	//obj_camera.shake += 50;
 	//save score and go to game
 }

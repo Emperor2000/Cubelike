@@ -13,3 +13,13 @@ if (should_fetch) {
 if (display == "") {
 	display = "Contacting the server...";	
 }
+
+
+//adjust status color to red if there is an error.
+if (display != "All tasks finished...") {
+	color = c_red;	
+}
+
+if (display == "All tasks finished...") {
+	color = c_green;	
+}
