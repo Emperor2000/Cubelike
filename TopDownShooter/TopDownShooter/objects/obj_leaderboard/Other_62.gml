@@ -1,33 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-/*
-display = "fetching leaderboards...";
-var json = async_load[? "result"];
-if (json != noone) {
-display = "parsing data...";	
-}
-show_debug_message("data: " + json);
-//convert JSON to ds map
-show_debug_message("converting json");
-
-//data
-var map = json_decode(json);
-show_debug_message("converted json: " + string(map));
-if (map == -1) {
-display = "Leaderboards could not be retrieved :{";
-	show_message("Something went wrong :c");
-	exit;
-}
-if (map == 0) {
-display = "The server was contacted but no results were found...";	
-}
-
-var data = json_decode(map);
-show_debug_message("NEW:::" + string(data));
-
-*/
 var json = async_load[? "result"];
 if (json != noone) {
 display = "parsing data...";	
