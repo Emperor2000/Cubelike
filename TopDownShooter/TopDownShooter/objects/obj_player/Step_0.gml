@@ -80,17 +80,30 @@ if (hit == true) {
 	//instance_create_layer(x, y, "Projectiles", o_blood_purple2);
 	//instance_create_layer(x, y, "Projectiles", o_blood_purple2);
 	hit = false;
-	alarm[1] = 10;
+	//alarm[1] = 10;
 	obj_camera.shake += 200;
 }
 
 
 
 if (hp <= 0) {
+	//obj_camera.shake += 10;
 	hit = false;
 	//room_restart();
 	global.player_final_score = self.current_run_score;
-	room_goto(room_leaderboard);
+	for (i = 0; i<5; i++){
+		var proj = instance_create_layer(x+irandom_range(-240, 240), y+irandom_range(-240, 240), "Projectiles", obj_bullet_hit_blue);
+		var scale_rand = irandom_range(1, 3);
+		proj.image_xscale = scale_rand;
+		proj.image_yscale = scale_rand;
+	}
+	obj_camera.shake = 0;
+	if (trigger_death == false) {
+	var audio = audio_play_sound(snd_explode_3, 1, false);
+	alarm[1] = 300;
+	trigger_death = true;
+	}
+	//room_goto(room_leaderboard);
 	//obj_camera.shake += 50;
 	//save score and go to game
 }

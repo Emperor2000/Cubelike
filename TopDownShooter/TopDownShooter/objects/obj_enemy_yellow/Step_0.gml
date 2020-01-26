@@ -35,6 +35,19 @@ if (hp <= 0) {
 	global.YELLOW_TOKENS += 1;
 	obj_player.current_run_score += 10;
 	instance_create_layer(x+irandom_range(-60, 60), y+irandom_range(-60, 60), "Overlay", obj_draw_damage_10);
+	
+	
+		//random audio selector
+	var val = noone;
+	var rand = irandom_range(0, 3);
+	if (rand == 0) val = snd_explode_1; 
+	if (rand == 1) val = snd_explode_2;
+	if (rand == 2) val = snd_explode_3;
+	if (rand == 3) val = snd_explode_4;
+
+	var audio = audio_play_sound(val, 1, false);
+	
+	
 	hit = true;
 	obj_camera.shake += 50;
 	instance_destroy();

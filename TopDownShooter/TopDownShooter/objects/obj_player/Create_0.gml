@@ -66,3 +66,7 @@ vsp = 0;		  	 //vertical speed
 
 //score
 current_run_score = 0;
+
+
+
+trigger_death = false;

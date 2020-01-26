@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+#region Get leaderboard info and connect to server
 var json = async_load[? "result"];
 if (json != noone) {
 display = "parsing data...";	
@@ -15,7 +17,7 @@ display = "Converting received data...";
 var result_map = json_decode(json);
 var list = ds_map_find_value(result_map, "data");
 
-if (list != undefined) {
+if (list != undefined && list != noone) {
 
 var size = ds_list_size(list);
 
@@ -61,8 +63,8 @@ for (var i = 0; i<ds_map_size(global.leaderboard_names); i++) {
 	show_debug_message(global.leaderboard_date[? curr_player]);
 }
 display = "All tasks finished...";
-
-
+alarm[1] = 180;
 } else {
 display = "The server could not be reached...";	
 }
+#endregion
