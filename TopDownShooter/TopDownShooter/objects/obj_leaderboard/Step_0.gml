@@ -27,8 +27,8 @@ if (display == "All tasks finished...") {
 
 if (should_send_user && conn_success) {
 	var newLeaderboardPlayer = ds_map_create();
-	ds_map_add(newLeaderboardPlayer, "name", "testuser");
-	ds_map_add(newLeaderboardPlayer, "score", "123");
+	ds_map_add(newLeaderboardPlayer, "name", global.player_name);
+	ds_map_add(newLeaderboardPlayer, "score", global.player_final_score);
 	var encode_board = json_encode(newLeaderboardPlayer);
 	
 	

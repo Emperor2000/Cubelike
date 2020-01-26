@@ -8,7 +8,7 @@ if (alpha_level < 0 || alpha_level >1)
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 #region firing
-if (mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_left) && hp > 0) {
 	if (enable_fire) {
 		instance_create_layer(x, y, "Projectiles", obj_bullet);
 		
@@ -100,7 +100,8 @@ if (hp <= 0) {
 	obj_camera.shake = 0;
 	if (trigger_death == false) {
 	var audio = audio_play_sound(snd_explode_3, 1, false);
-	alarm[1] = 300;
+	//alarm[1] = 300;
+	instance_create_layer(room_width/2, room_height/2, "Instances", obj_run_input);
 	trigger_death = true;
 	}
 	//room_goto(room_leaderboard);

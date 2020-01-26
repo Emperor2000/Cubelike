@@ -10,9 +10,9 @@ repeat(buttons) {
 	yy = menu_y + (button_height + button_padding) * i+512*(1-unfold[i]);
 	
 	draw_set_color(make_color_rgb(38, 43, 43));
-	draw_rectangle(xx - button_width/2, yy, xx - button_width/2 +button_width, yy+button_height, false);
+	//draw_rectangle(xx - button_width/2, yy, xx - button_width/2 +button_width, yy+button_height, false);
 	
-	draw_set_color(c_ltgray);
+	draw_set_color(c_white);
 	
 	if (menu_index == i) {
 	draw_set_color(c_aqua);	

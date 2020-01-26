@@ -1,7 +1,7 @@
 display = "";
 cooldown_fetch = 18000; //cooldown for new fetch -- 300 seconds --- 5 minutes
 should_fetch = true;
-should_send_user = true;
+should_send_user = false;
 post = undefined;
 conn_success = false;
 block = true;
@@ -14,5 +14,9 @@ global.leaderboard_names = ds_map_create();
 global.leaderboard_scores = ds_map_create();
 global.leaderboard_date = ds_map_create();
 global.player_final_score = 0; //player final score that gets saved
+
+global.player_name = "";
+
+
 player = "";
 color = c_green; //if fetching failes, adjust variable color to red.

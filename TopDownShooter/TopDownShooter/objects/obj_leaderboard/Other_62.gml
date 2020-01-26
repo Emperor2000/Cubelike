@@ -9,6 +9,8 @@ display = "parsing data...";
 display = "An error has occured. Unexpected response from server";
 }
 
+
+if (json != noone && json != undefined) {
 show_debug_message("data: " + json);
 //convert JSON to ds map
 show_debug_message("converting json...");
@@ -16,7 +18,6 @@ display = "Converting received data...";
 //data parsing
 var result_map = json_decode(json);
 var list = ds_map_find_value(result_map, "data");
-
 if (list != undefined && list != noone) {
 
 var size = ds_list_size(list);
@@ -68,3 +69,5 @@ alarm[1] = 180;
 display = "The server could not be reached...";	
 }
 #endregion
+
+}
