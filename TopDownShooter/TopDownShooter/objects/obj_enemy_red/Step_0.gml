@@ -33,6 +33,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) < firing_range && enable_fi
 if (hp <= 0) {
 	global.RED_TOKENS += 1;
 	obj_player.current_run_score += 5;
+	instance_create_layer(x+irandom_range(-60, 60), y+irandom_range(-60, 60), "Overlay", obj_draw_damage_5);
 	hit = true;
 	obj_camera.shake += 50;
 	instance_destroy();
