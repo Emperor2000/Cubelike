@@ -1,7 +1,9 @@
 
 if (room == room_leaderboard) {
-	draw_text_color(50, 450, "Server status: " + string(display), color, color, color, color, 1);
-	draw_text(50, 150, "Showing the top 50 players");
+	draw_set_halign(fa_center);
+	draw_set_font(font_leaderboard);
+	draw_text_color(250, 450, "Server status: " + string(display), color, color, color, color, 1);
+	draw_text(150, 150, "Showing the top 50 players");
 	
 	
 	draw_text(400, 50, "----POSITION----");
@@ -21,3 +23,4 @@ if (room == room_leaderboard) {
 
 	}
 }
+draw_set_font(font_main);
