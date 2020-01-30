@@ -2,7 +2,7 @@
 {
     "name": "room_leaderboard",
     "id": "4fd96101-030c-4132-bf2b-80d65405356a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
