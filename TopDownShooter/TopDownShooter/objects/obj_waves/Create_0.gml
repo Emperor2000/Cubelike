@@ -35,7 +35,7 @@ enum enemy_type {
 // Red Enemy
 spawn_details[enemy_type.red, spawn_characteristics.first_wave] = 0;
 spawn_details[enemy_type.red, spawn_characteristics.max_wave] = 30;
-spawn_details[enemy_type.red, spawn_characteristics.min_count] = 1;
+spawn_details[enemy_type.red, spawn_characteristics.min_count] = 2;
 spawn_details[enemy_type.red, spawn_characteristics.max_count] = 60;
 spawn_details[enemy_type.red, spawn_characteristics.easing_function] = ease_in_sine;
 spawn_details[enemy_type.red, spawn_characteristics.enemy_object] = obj_enemy_red;
@@ -49,8 +49,8 @@ spawn_details[enemy_type.yellow, spawn_characteristics.easing_function] = ease_i
 spawn_details[enemy_type.yellow, spawn_characteristics.enemy_object] = obj_enemy_yellow;
 
 // Purple Enemy
-spawn_details[enemy_type.purple, spawn_characteristics.first_wave] = 4;
-spawn_details[enemy_type.purple, spawn_characteristics.max_wave] = 20;
+spawn_details[enemy_type.purple, spawn_characteristics.first_wave] = 8;
+spawn_details[enemy_type.purple, spawn_characteristics.max_wave] = 30;
 spawn_details[enemy_type.purple, spawn_characteristics.min_count] = 1;
 spawn_details[enemy_type.purple, spawn_characteristics.max_count] = 10;
 spawn_details[enemy_type.purple, spawn_characteristics.easing_function] = ease_in_sine;
