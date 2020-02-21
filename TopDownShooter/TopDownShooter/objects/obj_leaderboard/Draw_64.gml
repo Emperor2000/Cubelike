@@ -3,8 +3,10 @@ if (room == room_leaderboard) {
 	draw_set_halign(fa_center);
 	draw_set_font(font_leaderboard);
 	draw_text_color(250, 450, "Server status: " + string(display), color, color, color, color, 1);
-	draw_text(150, 150, "Showing the top 50 players");
-	
+	draw_text(150, 150, "Showing the top 10 players");
+	draw_set_color(c_green);
+	draw_text(150, 50, "ESC TO RETURN TO THE MENU");
+	draw_set_color(c_white);
 	
 	draw_text(400, 50, "----POSITION----");
 	draw_text(600, 50, "------PLAYER-----");
@@ -14,7 +16,7 @@ if (room == room_leaderboard) {
 
 
 
-	for (var i = 0; i<ds_map_size(global.leaderboard_names) && i<50; i++) {
+	for (var i = 0; i<ds_map_size(global.leaderboard_names) && i<10; i++) {
 		var curr_player = global.leaderboard_names[? i];	
 		draw_text(400, 100+(50*i), i+1);
 		draw_text(600, 100+(50*i), global.leaderboard_names[? i]);

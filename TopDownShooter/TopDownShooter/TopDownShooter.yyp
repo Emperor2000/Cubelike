@@ -1223,6 +1223,14 @@
             }
         },
         {
+            "Key": "dd8ab3f1-c828-4ec9-9296-76b5455f8da7",
+            "Value": {
+                "id": "b7951bcd-268e-4254-a8ff-113e1c34e31c",
+                "resourcePath": "objects\\obj_room_navigator_return\\obj_room_navigator_return.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de1912fa-5442-46f8-9bc8-da119e8c80a5",
             "Value": {
                 "id": "1ea4c877-2232-4260-b759-7df9fd7044e9",
