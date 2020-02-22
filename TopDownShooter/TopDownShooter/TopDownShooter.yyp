@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "8e22cd82-3114-4036-a97b-a62f542df521",
+            "Value": {
+                "id": "4276e371-45c1-498c-9ec2-4c00ab03bf9d",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90e61bff-3ca4-4761-87b4-b420ba422b26",
             "Value": {
                 "id": "9a182321-af36-4e48-8399-385e004e2a5d",
@@ -940,6 +948,14 @@
                 "id": "285711c0-28e0-4e30-b547-0b592142d9c4",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "af99be03-2aa6-441a-aed3-04913cebf756",
+            "Value": {
+                "id": "5ea2c6d1-6ff6-4f14-a565-ddb5667ff5d5",
+                "resourcePath": "sprites\\spr_blue_ally\\spr_blue_ally.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1223,6 +1239,14 @@
             }
         },
         {
+            "Key": "dc08e4f5-f029-4cc4-9e34-2ba9c8c4b4bf",
+            "Value": {
+                "id": "ad839167-0fff-4ac2-a84d-bb04f06f71c9",
+                "resourcePath": "sprites\\spr_skills\\spr_skills.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dd8ab3f1-c828-4ec9-9296-76b5455f8da7",
             "Value": {
                 "id": "b7951bcd-268e-4254-a8ff-113e1c34e31c",
@@ -1236,6 +1260,14 @@
                 "id": "1ea4c877-2232-4260-b759-7df9fd7044e9",
                 "resourcePath": "views\\de1912fa-5442-46f8-9bc8-da119e8c80a5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "de3fc5c2-1be5-4110-acdc-47eec16eebbc",
+            "Value": {
+                "id": "2b5ada87-eea3-4254-8d81-e2e3942031df",
+                "resourcePath": "objects\\obj_light_turret\\obj_light_turret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1388,6 +1420,14 @@
                 "id": "6b848146-8dc7-4ea8-a872-54a520f58f30",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5e99219-f8ec-416c-9195-c23a3d654520",
+            "Value": {
+                "id": "98f9e539-df5d-40bb-8179-4c19b10a154e",
+                "resourcePath": "fonts\\font_small\\font_small.yy",
+                "resourceType": "GMFont"
             }
         },
         {

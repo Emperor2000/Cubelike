@@ -66,7 +66,8 @@ vsp = 0;		  	 //vertical speed
 
 //score
 current_run_score = 0;
-
+current_run_credits = 300;
+pressed1 = false;
 
 
 trigger_death = false;

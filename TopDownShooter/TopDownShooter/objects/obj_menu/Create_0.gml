@@ -8,7 +8,7 @@ button_padding = 16;
 //buttons
 button[0] = "Play";
 button[1] = "Shop";
-button[2] = "Leaderboards";
+button[2] = "???";
 button[3] = "Options";
 button[4] = "Exit";
 buttons = array_length_1d(button);

@@ -110,8 +110,23 @@ if (hp <= 0) {
 }
 
 
+if (pressed1) {
+if (current_run_credits >= 100) {
+	
+		obj_cursor.sprite_index = spr_blue_ally;
 
-
+	if (mouse_check_button_pressed(mb_right)) {
+		instance_create_layer(obj_cursor.x,obj_cursor.y,"Instances", obj_light_turret);
+		current_run_credits -=100;
+		pressed1=false;
+	}
+	
+		with (obj_cursor) {
+		obj_cursor.sprite_index = spr_pointer;
+		}
+	}
+	
+}
 
 
 

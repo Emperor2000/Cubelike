@@ -13,12 +13,12 @@ switch(menu_index) {
 	
 	
 	case 2:
-	room_goto(room_leaderboard);
+	//room_goto(room_leaderboard);
 	break;
 	
 	
 	case 3:
-	room_goto(room_options);
+	//room_goto(room_options);
 	break;
 	
 	

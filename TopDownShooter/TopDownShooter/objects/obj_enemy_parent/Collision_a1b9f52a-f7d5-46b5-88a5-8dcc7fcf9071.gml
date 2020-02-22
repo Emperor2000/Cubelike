@@ -1,1 +1,1 @@
-bounce_off_object(other, move_speed, max_speed);
+//bounce_off_object(other, move_speed, max_speed);
